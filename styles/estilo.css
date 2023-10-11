@@ -30,6 +30,7 @@
 .header-dj {
     grid-area: 1 / 1 / 2 / 6;
     background-color: rgba(110, 30, 30, 0.63);
+    max-height: 22px ;
 }
 
 .li-header-dj {
@@ -44,6 +45,11 @@ a {
     text-decoration: none;
     color: aliceblue;
     margin: 10px;
+}
+
+.a-dj:hover {
+    color: #FF0000;
+    text-decoration: underline; /* Agrega un subrayado cuando el mouse está sobre el enlace */
 }
 
 .footer-dj {
@@ -101,6 +107,10 @@ a {
     border: solid rgba(110, 30, 30, 0.63);
     height: 150px;
     width: 150px;
+}
+
+.card-picture-dj:hover{
+    transform:  scale(1.35);
 }
 
 .fotocarnet-dj{
@@ -162,12 +172,18 @@ a {
     cursor: pointer;
 }
 
+.contact-form .btnContact:active {
+    background-color: #000000;
+    transform: scale(0.8);
+}
+
 .contact-form{
     background: rgba(110, 30, 30, 0.63);
     margin-top: 1vh;
     width: 80%;
     padding-bottom: 10px;
 }
+
 
 .form-control{
     margin: 15px;
@@ -181,7 +197,7 @@ a {
     margin: 10px;  
 }
 
-.carousel{
+.carousel-dj{
     max-width: 20vw;
     max-height: 30vh;
     margin-top: 20px;
@@ -215,6 +231,7 @@ a {
 .header-cm {
     grid-area: 1 / 1 / 2 / 6;
     background-color: rgb(150, 150, 150);
+    max-height: 22px;
 }
 
 .li-header-cm {
@@ -223,6 +240,11 @@ a {
     text-align: center;
     font-family: 'PT Serif', serif;
     list-style: none;
+}
+
+.a-cm:hover {
+    color: #ffe600;
+    text-decoration: underline; /* Agrega un subrayado cuando el mouse está sobre el enlace */
 }
 
 .footer-cm {
@@ -281,6 +303,10 @@ a {
     width: 150px;
 }
 
+.card-picture-cm:hover{
+    transform:  scale(1.35);
+}
+
 .fotocarnet-cm{
     border-radius: 50%;
     border: solid rgb(150, 150, 150);
@@ -323,53 +349,13 @@ a {
     justify-content: start;
 }
 
-.contact-form h3{
-    text-align: center;
-    color: aliceblue;
-    margin-top: 2vh;
-}
 
-.contact-form .btnContact {
-    width: 80%;
-    border: none;
-    border-radius: 20px;
-    padding: 5px;
-    margin: 5px;
-    background-color: rgba(110, 30, 30, 0.63);
-    font-weight: 700;
-    color: #fff;
-    cursor: pointer;
-}
-
-.contact-form{
-    background: rgba(110, 30, 30, 0.63);
-    margin-top: 1vh;
-    width: 80%;
-    padding-bottom: 10px;
-}
-
-.form-control{
-    margin: 15px;
-    border: solid aliceblue;
-    border: 1px;
-    border-radius: 20px ;
-    padding: 10px;
-}
-
-.contact-form form .row{
-    margin: 10px;  
-}
-
-.main-galeria-cm{
-    min-width: 100vw;
-    min-height: 100vh;
-}
-
-.carousel{
+.carousel-cm{
     max-width: 20vw;
     max-height: 30vh;
     margin-top: 20px;
-    margin-bottom: 45vh;
+    margin-bottom: 65vh;
+
 }
 
 .galeria-div-cm{

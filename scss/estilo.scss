@@ -5,7 +5,11 @@
     border: 0;
     box-sizing: border-box;
   }
-  
+  @import "contactos";
+  @import "galerias";
+  @import "principales";
+  @import "variables";
+
 
   @media screen and (max-width: 1024px) {
     .grid-dj {
